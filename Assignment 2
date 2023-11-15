@@ -1,0 +1,55 @@
+// question 2
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello Java");
+
+        QuestionFour qf = new QuestionFour();
+        qf.questFour();
+
+        QuestionFive qfive = new QuestionFive();
+        qfive.questFive();
+
+        QuestionSix qs = new QuestionSix();
+        qs.questSix();
+
+        QuestionSeven qsev = new QuestionSeven();
+        qsev.questSev();
+    }
+}
+
+class QuestionFour {
+    public void questFour() {
+        System.out.println("I want this program to compile");
+    }
+}
+
+// question 5
+class QuestionFive {
+    public void questFive() {
+        System.out.println("Mukhtar Mohammed Saleh");
+        System.out.println("Mombasa");
+        System.out.println("0622203508");
+    }
+}
+
+// question 6
+class QuestionSix {
+    public void questSix() {
+        System.out.println("Mukhtar Mohammed Saleh");
+        System.out.println("Mombasa");
+        System.out.println();
+        System.out.println("0622203508");
+    }
+}
+
+// question 7
+class QuestionSeven {
+    public void questSev() {
+        System.out.println("*       *   *    *");
+        System.out.println("* *   * *   *    *");
+        System.out.println("*  * *  *   *    *");
+        System.out.println("*   *   *   *    *");
+        System.out.println("*       *   *    *");
+        System.out.println("*       *    ****  ");
+    }
+}
